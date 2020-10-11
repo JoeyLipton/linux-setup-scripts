@@ -3,39 +3,66 @@
 
 # Install vim
 
-echo "Installing vim"
-yum install -y -q vim 
+{
+    yum install -y -q vim
+    &> /dev/null
+    printf "Installed vim\n"
+}
 
 
+
+# Install nano
+
+{
+    yum install -y -q nano
+    &> /dev/null
+    printf "Installed nano\n"
+}
 
 # Install wget
 
-echo "Installing wget"
-yum install -y -q wget 
+{
+    yum install -y -q wget
+    &> /dev/null
+    printf "Installed wget\n"
+}
 
 
 # Install yum-utils
 
-echo "Installing yum-utils"
-yum install -y -q yum-utils 
+{
+    yum install -y -q yum-utils
+    &> /dev/null
+    printf "Installed yum-utils\n"
+}
+
 
 
 # Install tmux
-echo "Installing tmux"
-yum install -y -q tmux 
 
+{
+    yum install -y -q tmux
+    &> /dev/null
+    printf "Installed tmux\n"
+}
 
 
 # Install git
-echo "Installing git"
-yum install -y -q git 
+
+{
+    yum install -y -q git
+    &> /dev/null
+    printf "Installed git\n"
+}
 
 
 # Install python (and pip)
-echo "Installing python 3.7"
-yum install -y -q python37
 
-
+{
+    yum install -y -q python38
+    &> /dev/null
+    printf "Installed python38\n"
+}
 
 
 
