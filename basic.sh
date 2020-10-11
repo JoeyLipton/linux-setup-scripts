@@ -61,9 +61,9 @@
 {
     yum install -y -q python38
     &> /dev/null
-    printf "Installed python38\n"
+    printf "Installed python38\n\n"
 }
 
 
 
-echo "If you get here there probably wasn't an error"
+printf "If you get here there probably wasn't an error\n\n"
