@@ -21,13 +21,6 @@
     printf "Installed wget\n"
 }
 
-# Install yum-utils
-{
-    yum install -y -q yum-utils
-    &> /dev/null
-    printf "Installed yum-utils\n"
-}
-
 # Install tmux
 {
     yum install -y -q tmux
